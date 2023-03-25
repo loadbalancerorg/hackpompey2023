@@ -3,6 +3,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { LoginPage } from './pages/login/login.page';
 import { LandingPage } from './pages/landing/landing.page';
 import { HomePage } from './pages/home/home.page';
+import { ChatPage } from './pages/chat/chat.page';
 
 const routes: Routes = [
   {
@@ -18,9 +19,13 @@ const routes: Routes = [
     component: HomePage,
   },
   {
-    path: '',
-    loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
-  }
+    path: 'chat',
+    component: ChatPage,
+  },
+  // {
+  //   path: '',
+  //   loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
+  // }
 ];
 @NgModule({
   imports: [

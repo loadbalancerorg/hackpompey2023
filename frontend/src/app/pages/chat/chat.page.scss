@@ -1,0 +1,40 @@
+ion-content {
+  --ion-background-color: #8B82FF;
+}
+
+ion-header {
+  --ion-toolbar-background: var(--ion-color-primary);
+
+}
+
+ion-footer {
+  --ion-toolbar-background: var(--ion-color-primary);
+}
+
+.user_name {
+  color: #afafaf;
+}
+.message {
+  padding: 10px !important;
+  transition: all 250ms ease-in-out !important;
+  border-radius: 10px !important;
+  margin-bottom: 4px !important;
+}
+.mymessage {
+  background: var(--ion-color-primary) !important;
+  color: #fff !important;
+  border-top-right-radius: 0px !important;
+}
+.othermessage {
+  background: var(--ion-color-tertiary) !important;
+  color: #fff !important;
+  border-top-left-radius: 0px !important;
+}
+.time {
+  color: #afafaf;
+  float: right;
+  font-size: small;
+}
+.message_row {
+  background-color: #fff;
+}
