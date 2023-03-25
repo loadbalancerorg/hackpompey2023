@@ -12,6 +12,6 @@ export class LoginPage {
     ) {}
 
     public login() {
-        this.router.navigate(['/home']);
+        this.router.navigate(['/chat']);
     }
 }
