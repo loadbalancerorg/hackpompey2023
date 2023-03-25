@@ -1,0 +1,7 @@
+{
+  "name": "3DeepBreaths",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
