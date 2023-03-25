@@ -1,0 +1,39 @@
+ion-content {
+  --ion-background-color: #8B82FF;
+}
+
+ion-button {
+  --ion-background-color: var(--ion-color-tertiary);
+}
+
+#header {
+  margin-top: 40px;
+  text-align: center;
+  padding: 0 15px;
+  z-index: 10;
+}
+
+#small-circle, #medium-circle, #large-circle, #login-chick {
+  position: absolute;
+  z-index: -1;
+}
+
+#small-circle {
+  top: 20px;
+  left: 10px;
+}
+
+#medium-circle {
+  bottom: 30px;
+  right: 20px;
+}
+
+#large-circle {
+  right: -65px;
+  top: -40px;
+}
+
+#login-chick {
+  top: 160px;
+  left: -60px;
+}
