@@ -36,7 +36,7 @@ export class ChatPage {
 
         // setup openai
         this.openai = new OpenAIApi(new Configuration({
-            apiKey: "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",
+            apiKey: "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",
         }));
     }
     public sendMessage(prompt: any) {
