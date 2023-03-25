@@ -1,9 +1,6 @@
 ion-content {
   --ion-background-color: #8B82FF;
-}
-
-ion-button {
-  --ion-background-color: var(--ion-color-tertiary);
+  --overflow: hidden;
 }
 
 #header {
@@ -13,7 +10,7 @@ ion-button {
   z-index: 10;
 }
 
-#small-circle, #medium-circle, #large-circle, #login-chick {
+#small-circle, #medium-circle, #large-circle, #landing-chick {
   position: absolute;
   z-index: -1;
 }
@@ -33,7 +30,7 @@ ion-button {
   top: -40px;
 }
 
-#login-chick {
+#landing-chick {
   top: 160px;
   left: -60px;
 }
