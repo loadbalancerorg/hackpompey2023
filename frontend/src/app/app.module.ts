@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginPageModule } from './pages/login/login.module';
 import { LandingPageModule } from './pages/landing/landing.module';
+import { HomePageModule } from './pages/home/home.module';
 
 @NgModule({
     declarations: [
@@ -18,7 +19,8 @@ import { LandingPageModule } from './pages/landing/landing.module';
         IonicModule.forRoot(),
         AppRoutingModule,
         LoginPageModule,
-        LandingPageModule
+        LandingPageModule,
+        HomePageModule
     ],
     providers: [
         {
