@@ -1,0 +1,53 @@
+{
+	"LostLuggage":
+	{
+		"default": {
+			"msg": "OK. So first of all, is there a member of airport staff nearby?",
+			"options": {
+				"Yes": 	"haveTheyAsked",
+				"No": 	"locateHelpPoint"
+			}
+		},
+		"haveTheyAsked": {
+			"msg": "Great. Have you spoken to them to ask for help?",
+			"options": {
+				"Yes": 	"wereTheyHelpful",
+				"No": 	"askForHelp"
+			}
+		},
+		"askForHelp": {
+			"msg": "OK, please ask them for help.",
+			"options": {
+				"Done": "wereTheyHelpful",
+				"Don't want to": "aYouProblem"
+			}
+		},
+		"aYouProblem": {
+			"msg": "That sounds like a you problem.",
+			"options": {
+				"I'm being stupid'": "yesYouAre",
+				"Go away": "$END$"
+			}
+		},
+		"yesYouAre": {
+			"msg": "Yeah, I agree. Let's try again.",
+			"options": {
+				"OK, I'm game'": "askForHelp",
+				"Go away": "$END$"
+			}
+		},
+		"wereTheyHelpful": {
+			"msg": "Were they helpful?",
+			"options": {
+				"Yes": "notImplementedYet",
+				"No": "notImplementedYet"
+			}
+		},
+		"notImplementedYet": {
+			"msg": "Sorry, we haven't written this part yet.'",
+			"options": {
+				"Quit": "$END$"
+			}
+		}
+	}	
+}

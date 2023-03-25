@@ -9,6 +9,8 @@ import { AppComponent } from './app.component';
 import { LoginPageModule } from './pages/login/login.module';
 import { LandingPageModule } from './pages/landing/landing.module';
 import { HomePageModule } from './pages/home/home.module';
+import { ChatPageModule } from './pages/chat/chat.module';
+import { BreathPageModule } from './pages/breath/breath.module';
 
 @NgModule({
     declarations: [
@@ -20,7 +22,9 @@ import { HomePageModule } from './pages/home/home.module';
         AppRoutingModule,
         LoginPageModule,
         LandingPageModule,
-        HomePageModule
+        HomePageModule,
+        ChatPageModule,
+        BreathPageModule
     ],
     providers: [
         {
