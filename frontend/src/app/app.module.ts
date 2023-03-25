@@ -10,6 +10,7 @@ import { LoginPageModule } from './pages/login/login.module';
 import { LandingPageModule } from './pages/landing/landing.module';
 import { HomePageModule } from './pages/home/home.module';
 import { ChatPageModule } from './pages/chat/chat.module';
+import { BreathPageModule } from './pages/breath/breath.module';
 
 @NgModule({
     declarations: [
@@ -22,7 +23,8 @@ import { ChatPageModule } from './pages/chat/chat.module';
         LoginPageModule,
         LandingPageModule,
         HomePageModule,
-        ChatPageModule
+        ChatPageModule,
+        BreathPageModule
     ],
     providers: [
         {
