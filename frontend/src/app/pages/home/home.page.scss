@@ -1,0 +1,46 @@
+ion-card.ios {
+  display: flex;
+  flex-flow: column-reverse;
+
+  border-radius: 15px;
+  flex: 0 0 auto;
+  margin-right: 20px;
+  scroll-snap-align: start;
+  /* Card styling */
+  width: 300px;
+  height: 200px;
+ // box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color:white;
+}
+.card__wrapper-mini ion-card.ios{
+  width:100px;
+}
+
+.blue__grad{
+  background: linear-gradient(108.32deg, #84FFC9 1.8%, #AAB2FF 50.5%, #ECA0FF 98.2%);
+}
+.red__grad{
+  background: linear-gradient(108.32deg, #84FFC9 1.8%, #FF5858 1.81%, #FFC8C8 98.2%);
+}
+.purple__grad{
+  background: linear-gradient(128.94deg, #696EFF 0%, #F8ACFF 100%);
+}
+.orange__grad{
+  background: linear-gradient(124.72deg, #F9C58D 5.33%, #F492F0 100%);
+}
+.deep-blue__grad{
+  background: linear-gradient(128.94deg, #595CFF 0%, #C6F8FF 100%);
+}
+
+.card{
+  &__wrapper{
+    //background-color:green;
+    width: 100%;
+    margin: auto;
+    display: flex;
+   // overflow-x: scroll;
+   // scroll-snap-type: x mandatory;
+
+  }
+
+}
